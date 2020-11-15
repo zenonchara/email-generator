@@ -1,0 +1,18 @@
+.getApp {
+    padding: 0 $paddingLg $paddingLg $paddingLg;
+    a {
+        color: $linkColor;
+        text-decoration: none;
+        img {
+            background: transparent;
+            &.apple-img {
+                width: 12px;
+                height: 14px;
+            }
+            &.android-img {
+                width: 18px;
+                height: 11px;
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+$borderColor: #ECECED;
+$mainTextColor: #202020; 
+
+$mutedTextColor: #6C7175; 
+
+$paddingLg: 24px;
+$paddingMd: 16px;
+$paddingSm: 10px;
+
+$textSmall: 11px;
+$textNormal: 16px;
+$textLarge: 24px;
+
+$linkColor: #029cc3;
+
+$green: #078480;
+
+.text-muted {
+    color: $mutedTextColor;
+}
+.text-small {
+    font-size: $textSmall;
+}
+p.text-small {
+    line-height: 16px;
+}
+
+.pt-l {
+    padding-top:$paddingLg;
+}
+.pt-0 {
+    padding-top:0;
+}
+
+.mb-0 {
+    margin-bottom:0;
+}
+
+.py-0 {
+    padding-top:0;
+    padding-bottom:0;
+}
+
+.pb-0 {
+    padding-bottom:0;
+}

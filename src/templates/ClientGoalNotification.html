@@ -1,0 +1,64 @@
+<style type="text/css">    
+    #goal-notification-table {     
+        padding:5px;     
+        font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto""Helvetica Neue", Arial, sans-serif,;     
+        font-weight:500;     
+        font-size:13px;     
+        color:#53565A;     
+        width:100%;    
+    }      
+    #goal-notification-table th    {     
+        font-weight:700;     
+        text-align:left;    
+    }
+    .status-ontrack     {     
+        font-weight:700;     
+        font-size:16px;     
+        color:#25A29E;          
+    }    
+    .status-behind     {     
+        font-weight:700;     
+        font-size:16px;     
+        color:#D50032;          
+    }  
+</style>
+<table border="0" cellpadding="0" cellspacing="0" width="480" id="templateBody">
+    <tr>
+        <td valign="top" class="bodyContent">
+            <table border="0" cellpadding="24" cellspacing="0" width="100%">
+                <tr>
+                    <td valign="top">
+                        <div  class="textContent">
+                            <p>
+                                Hi ##userName##,
+                            </p>
+                            <p>
+                                Here is your update on how you are tracking.
+                            </p>
+                            ##RawHTML_Goals##
+                            <p>&nbsp;</p>
+
+                            <div><!--[if mso]>
+                                <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://" style="height:42px;v-text-anchor:middle;width:180px;" arcsize="12%" stroke="f" fillcolor="#229EC6">
+                                  <w:anchorlock/>
+                                  <center>
+                                <![endif]-->
+                                    <a href="##BaseHref##Accounts/SignIn/SignIn##cobrandparam##&emailSetting=goals&utm_campaign=GOALS&utm_medium=EDM&utm_source=COMMS&utmccn=GOALS&utmcmd=EDM&utmcsr=COMMS" class="button">Review your progress</a>
+                                <!--[if mso]>
+                                  </center>
+                                </v:roundrect>
+                              <![endif]--></div>
+                        </div>
+                        <img src="##GIFRequestUrl##" border="0" style="display:none" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="getApp textContent">
+                        <!-- partial:partial/app_links.html -->
+                        <!-- partial -->
+                    </td>
+                </tr>
+            </table>            
+        </td>
+    </tr>
+</table>

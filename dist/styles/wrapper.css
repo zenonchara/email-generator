@@ -1,0 +1,88 @@
+/* line 3, src/styles/wrapper.scss */
+.wrapper-body, .wrapper-html {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+}
+
+/* line 8, src/styles/wrapper.scss */
+.wrapper-body {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+/* line 15, src/styles/wrapper.scss */
+.wrapper-col.nav-wrapper {
+  padding: 20px;
+  background: #fafafa;
+  width: 300px;
+}
+
+/* line 19, src/styles/wrapper.scss */
+.wrapper-col.nav-wrapper ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 25, src/styles/wrapper.scss */
+.wrapper-file-link {
+  display: block;
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
+
+/* line 30, src/styles/wrapper.scss */
+.wrapper-file-link:hover {
+  background: #eaeaea;
+}
+
+/* line 34, src/styles/wrapper.scss */
+.wrapper-file-link.active {
+  color: white;
+  background: #0000ee;
+}
+
+/* line 40, src/styles/wrapper.scss */
+.wrapper-col.content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+/* line 44, src/styles/wrapper.scss */
+.wrapper-col.meta {
+  padding: 20px;
+  background: #fafafa;
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* line 50, src/styles/wrapper.scss */
+.wrapper-col.meta textarea {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 8px;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+  font-size: 13px;
+  font-family: 'Courier New', Courier, monospace;
+  resize: none;
+}
+
+/* line 61, src/styles/wrapper.scss */
+#templateTitle {
+  font-weight: bold;
+  word-wrap: wrap;
+  margin: 10px;
+}

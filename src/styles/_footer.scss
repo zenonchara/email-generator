@@ -1,0 +1,20 @@
+#templateFooter {
+    td {
+        padding: 0 0 10px 0;
+    }
+    .footerContent {
+        padding: $paddingLg $paddingLg $paddingSm $paddingLg;
+        border-top: 1px solid $borderColor;
+        
+        .footertext, a {
+            text-align: center;
+            color: $mutedTextColor;
+            font-size: $textSmall;
+            line-height: 16px;
+        }
+
+        a {
+            text-decoration: underline;
+        }
+    }
+}

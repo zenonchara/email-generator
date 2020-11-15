@@ -1,0 +1,34 @@
+/*////// FONTS //////*/
+body, h1, h2, h3, h4, h5, h6,
+.headerCell, .footerCell,
+.textContent, .textContentLast,
+.buttonContent,
+.emailCalendarDay, .emailCalendarMonth {
+    font-family: 
+        // Safari for OS X and iOS (San Francisco)
+        -apple-system,
+        // Chrome < 56 for OS X (San Francisco)
+        BlinkMacSystemFont,
+        // Windows
+        "Segoe UI",
+        // Android
+        "Roboto",
+        // Basic web fallback
+        "Helvetica Neue", Arial, sans-serif,
+        // Emoji fonts
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.textContent {
+    font-size: $textNormal;
+    color: $mainTextColor;
+    line-height: 24px;
+
+    a.standard-link {
+        color: $linkColor;
+    }
+}
+
+.simple-list {
+    padding-left: 20px;
+}

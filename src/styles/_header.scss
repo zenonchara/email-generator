@@ -1,0 +1,15 @@
+#templateHeader .header {
+    padding: $paddingLg $paddingLg $paddingMd $paddingLg;
+    border-bottom: 1px solid $borderColor;
+
+    img {
+        display: block;
+        max-height: 50px;
+        max-width: 300px;
+        border-radius: 0%;
+        border: 0;
+        outline: none;
+        text-decoration: none;
+        vertical-align: bottom;
+    }
+}

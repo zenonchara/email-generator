@@ -1,0 +1,343 @@
+/* line 18, src/styles/_variables.scss */
+.text-muted {
+  color: #6C7175;
+}
+
+/* line 21, src/styles/_variables.scss */
+.text-small {
+  font-size: 11px;
+}
+
+/* line 24, src/styles/_variables.scss */
+p.text-small {
+  line-height: 16px;
+}
+
+/* line 28, src/styles/_variables.scss */
+.pt-l {
+  padding-top: 24px;
+}
+
+/* line 31, src/styles/_variables.scss */
+.pt-0 {
+  padding-top: 0;
+}
+
+/* line 35, src/styles/_variables.scss */
+.mb-0 {
+  margin-bottom: 0;
+}
+
+/* line 39, src/styles/_variables.scss */
+.py-0 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* line 44, src/styles/_variables.scss */
+.pb-0 {
+  padding-bottom: 0;
+}
+
+/*////// RESET STYLES //////*/
+/* line 2, src/styles/_reset.scss */
+body, #bodyTable, #bodyCell {
+  height: 100% !important;
+  margin: 0;
+  padding: 0;
+  width: 100% !important;
+}
+
+/* line 9, src/styles/_reset.scss */
+body {
+  -webkit-text-size-adjust: none;
+}
+
+/* Prevent Webkit platforms from changing default text sizes. */
+/* line 12, src/styles/_reset.scss */
+table, table td {
+  border-collapse: collapse;
+}
+
+/* line 16, src/styles/_reset.scss */
+img, a img {
+  border: 0;
+  outline: none;
+  text-decoration: none;
+}
+
+/* line 22, src/styles/_reset.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 27, src/styles/_reset.scss */
+p {
+  margin: 1em 0;
+}
+
+/*////// CLIENT-SPECIFIC STYLES //////*/
+/* line 32, src/styles/_reset.scss */
+.ReadMsgBody {
+  width: 100%;
+}
+
+/* line 36, src/styles/_reset.scss */
+.ExternalClass {
+  width: 100%;
+}
+
+/* Force Hotmail/Outlook.com to display emails at full width. */
+/* line 41, src/styles/_reset.scss */
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+  line-height: 100%;
+}
+
+/* Force Hotmail/Outlook.com to display line heights normally. */
+/* line 46, src/styles/_reset.scss */
+table, td {
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt;
+}
+
+/* Remove spacing between tables in Outlook 2007 and up. */
+/* line 52, src/styles/_reset.scss */
+#outlook a {
+  padding: 0;
+}
+
+/* Force Outlook 2007 and up to provide a "view in browser" message. */
+/* line 57, src/styles/_reset.scss */
+img {
+  -ms-interpolation-mode: bicubic;
+  height: auto;
+  line-height: 100%;
+  outline: none;
+  text-decoration: none;
+}
+
+/* Force IE to smoothly render resized images. */
+/* line 66, src/styles/_reset.scss */
+body, table, td, p, a, li, blockquote {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Prevent Windows- and Webkit-based mobile platforms from changing declared text sizes. */
+/*////// FONTS //////*/
+/* line 2, src/styles/_fonts.scss */
+body, h1, h2, h3, h4, h5, h6,
+.headerCell, .footerCell,
+.textContent, .textContentLast,
+.buttonContent,
+.emailCalendarDay, .emailCalendarMonth {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+/* line 22, src/styles/_fonts.scss */
+.textContent {
+  font-size: 16px;
+  color: #202020;
+  line-height: 24px;
+}
+
+/* line 27, src/styles/_fonts.scss */
+.textContent a.standard-link {
+  color: #029cc3;
+}
+
+/* line 32, src/styles/_fonts.scss */
+.simple-list {
+  padding-left: 20px;
+}
+
+/* line 1, src/styles/_header.scss */
+#templateHeader .header {
+  padding: 24px 24px 16px 24px;
+  border-bottom: 1px solid #ECECED;
+}
+
+/* line 5, src/styles/_header.scss */
+#templateHeader .header img {
+  display: block;
+  max-height: 50px;
+  max-width: 300px;
+  border-radius: 0%;
+  border: 0;
+  outline: none;
+  text-decoration: none;
+  vertical-align: bottom;
+}
+
+/* line 2, src/styles/_footer.scss */
+#templateFooter td {
+  padding: 0 0 10px 0;
+}
+
+/* line 5, src/styles/_footer.scss */
+#templateFooter .footerContent {
+  padding: 24px 24px 10px 24px;
+  border-top: 1px solid #ECECED;
+}
+
+/* line 9, src/styles/_footer.scss */
+#templateFooter .footerContent .footertext, #templateFooter .footerContent a {
+  text-align: center;
+  color: #6C7175;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+/* line 16, src/styles/_footer.scss */
+#templateFooter .footerContent a {
+  text-decoration: underline;
+}
+
+/* line 3, src/styles/_content.scss */
+#templateBody .bodyContent p {
+  margin: 0 0 16px 0;
+}
+
+/* line 1, src/styles/_preHeader.scss */
+.preheaderContent {
+  display: none !important;
+  display: none;
+  overflow: hidden;
+  float: left;
+  width: 0px;
+  max-height: 0px;
+  max-width: 0px;
+  line-height: 0px;
+}
+
+/* line 1, src/styles/_buttons.scss */
+.button {
+  background-color: #029cc3;
+  border-radius: 5px;
+  color: #ffffff;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 42px;
+  text-align: center;
+  text-decoration: none;
+  width: 180px;
+  -webkit-text-size-adjust: none;
+}
+
+/* line 1, src/styles/_getApp.scss */
+.getApp {
+  padding: 0 24px 24px 24px;
+}
+
+/* line 3, src/styles/_getApp.scss */
+.getApp a {
+  color: #029cc3;
+  text-decoration: none;
+}
+
+/* line 6, src/styles/_getApp.scss */
+.getApp a img {
+  background: transparent;
+}
+
+/* line 8, src/styles/_getApp.scss */
+.getApp a img.apple-img {
+  width: 12px;
+  height: 14px;
+}
+
+/* line 12, src/styles/_getApp.scss */
+.getApp a img.android-img {
+  width: 18px;
+  height: 11px;
+}
+
+/* line 1, src/styles/_assetPreview.scss */
+.asset-preview {
+  background: #F4F6F8;
+}
+
+/* line 4, src/styles/_assetPreview.scss */
+.asset-preview td {
+  padding: 0;
+}
+
+/* line 8, src/styles/_assetPreview.scss */
+.asset-preview .asset-wrapper {
+  padding: 25px 0px;
+}
+
+/* line 12, src/styles/_assetPreview.scss */
+.asset-preview .asset-icon {
+  width: 50px;
+  height: 80px;
+  padding: 0 10px;
+}
+
+/* line 18, src/styles/_assetPreview.scss */
+.asset-preview .asset-link {
+  text-decoration: none;
+  display: block;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+}
+
+/* line 27, src/styles/_assetPreview.scss */
+.asset-preview .asset-link .asset-title {
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #029cc3;
+}
+
+/* line 33, src/styles/_assetPreview.scss */
+.asset-preview .asset-link .asset-subtext {
+  text-decoration: none;
+  font-size: 13px;
+  color: #6C7175;
+}
+
+/* line 39, src/styles/_assetPreview.scss */
+.asset-preview .asset-link .asset-amount {
+  font-size: 24px;
+  font-weight: bold;
+  color: #078480;
+}
+
+/* line 48, src/styles/_assetPreview.scss */
+.asset-preview.asset-property .asset-icon {
+  width: 130px;
+  height: auto;
+  padding: 0;
+}
+
+/* line 53, src/styles/_assetPreview.scss */
+.asset-preview.asset-property .property-cell {
+  padding-right: 16px;
+}
+
+/* line 60, src/styles/_assetPreview.scss */
+.agency-info {
+  font-size: 13px;
+  color: #6C7175;
+}
+
+/* line 63, src/styles/_assetPreview.scss */
+.agency-info .agency-image {
+  width: 150px;
+  height: auto;
+}
+
+/* line 1, src/styles/_signature.scss */
+.signature {
+  padding: 0 24px 24px 24px;
+}
+
+/* line 3, src/styles/_signature.scss */
+.signature p {
+  color: #202020;
+  font-size: 16px;
+  margin: 0;
+}

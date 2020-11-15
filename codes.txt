@@ -1,0 +1,29 @@
+
+<!--  ##cobrandfootername## - yourpersonal wealth portal -->
+
+<!--  ##headerlogo## <img src=" -->
+
+<!-- ##headerstyle##  style tag-->
+
+<!-- ##supportemail## mailto -->
+
+src="##headerlogo##"
+
+<!-- ###TABLE### ??? -->
+
+<!-- kind regards, ##signature## -->
+
+<!-- ##test## -->
+
+<!-- <a href="##BaseHref## -->
+
+    <!-- ting&cobrand=##cobrandtoken##" -->
+
+    <!-- 
+        ##BaseHref##
+        Accounts/SignIn/SignIn?emailSetting=unsubscribe&e_enc=
+        ##encryptedEmail##
+        &cobrand=
+        ##cobrandtoken##
+        &emailSource=
+        ##sourceTemplate##"  -->
