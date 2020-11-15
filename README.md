@@ -22,5 +22,8 @@
 **What aboout the wrapper "base" email?**
 Its in `src/templates/_BaseEmailTemplate.html`
 
-**What aboout the wrapper "base" email?**
-Its in `src/templates/_BaseEmailTemplate.html`
+**The commands don't seem to be working?**
+Check the error console and `package.json` for any missing packages
+
+**The commands don't seem to be working?**
+Check the error console and `package.json` for any missing packages
